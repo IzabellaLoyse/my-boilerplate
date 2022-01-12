@@ -1,0 +1,21 @@
+{
+  "name": "simple-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple boilerplate for projects with css, html and javascript",
+  "main": "src/js/index.js",
+  "scripts": {
+    "dev": "sass --watch src/sass:public/css --style compressed",
+    "lint:fix": "eslint --fix"
+  },
+  "keywords": [],
+  "author": "Izabella Loyse Cândido",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "dependencies": {
+    "sass": "^1.47.0"
+  }
+}
