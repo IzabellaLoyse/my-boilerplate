@@ -6,8 +6,12 @@
   "extends": [
     "airbnb-base"
   ],
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 2021
   },
+  "plugins": [
+    "@typescript-eslint"
+  ],
   "rules": {}
 }
