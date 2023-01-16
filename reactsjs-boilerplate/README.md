@@ -1,4 +1,6 @@
-# Simple Boilerplate
+# ⚛️ ReactJS Boilerplate
+
+- Boilerplate de ReactJS com Router DOM e Styled Components
 
 ## 💡 Guia de instalação
 
@@ -47,54 +49,31 @@ Usando Yarn:
 yarn install
 ```
 
-## 🔮 Compilando o CSS do projeto
+## 📁 Rodando o projeto
 
-- Após a instalação das dependências do projeto
-- Vamos compilar o **SCSS** utilizando o script `dev` do arquivo `packjage.json`.
+- Para rodar a aplicação
 
-Usando o Yarn para compilar:
+Usando npm:
 
-```js
-yarn dev
 ```
-
-Usando o Npm para compilar:
-
-```js
 npm run dev
 ```
 
-## 🔗 Compilando o TypeScript do projeto
-
-- Para transpirar o arquivo **TypeScript** do projeto
-- Utilize o script `tsc` do arquivo `packjage.json`.
-
-Utilizando o Yarn
-
-```js
-yarn tsc
+Usando Yarn:
 
 ```
-
-Utilizando o Npm
-
-```js
-npm run tsc
+yarn dev
 ```
 
-## 🌐 Utilizando o Eslint
+## 🪄 Configurações do projeto
 
-- Para que os arquivos tenham a formatação do **Eslint**.
-- Utilize o script `lint:fix` do arquivo `packjage.json`.
+- O boilerplate está configurado com o **eslint**, **prettier** e **editorconfig** mas sinta-se livre para alterá-los conforme desejar.
+- Altere o nome que vem por padrão do título do projeto no `index.html ` e o no `package.json`.
 
-Utilizando o Yarn
+## ⚙️ Tecnologias utilizadas
 
-```js
-yarn lint:fix
-```
-
-Utilizando o Npm
-
-```js
-npm run lint:fix
-```
+- ViteJs
+- ReactJs
+- Axios
+- Styled Components
+- Router Dom
