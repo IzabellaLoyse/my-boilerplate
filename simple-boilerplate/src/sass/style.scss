@@ -1,10 +1,12 @@
 @charset "utf-8";
 
 /* ----- ABSTRACT ----- */
+@use 'abstract/abstract.scss';
 
 /* ----- VENDOR ----- */
 
 /* ----- BASE ----- */
+@use 'base/base';
 
 /* ----- LAYOUT ----- */
 

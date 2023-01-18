@@ -2,4 +2,4 @@ const greeting = (name: string) => {
   return `Hello ${name}`;
 };
 
-console.log(greeting("John"));
+console.log(greeting('John'));
